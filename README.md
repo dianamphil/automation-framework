@@ -16,6 +16,10 @@ We are verifying the Google Trends page can be opened,
 Comparison can be done using different filters
 and assert that one is always higher
 
+## Screenshots
+Please find below the running copy of the Test framework
+![demo](docs/demo.gif)
+
 
 
 
