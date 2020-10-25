@@ -23,7 +23,7 @@ public class CompareTrendsTest{
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\diana.philip\\IdeaProjects\\TechnicalTest\\src\\drivers\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-       driver.get("https://trends.google.com/trends/?geo=US");
+        driver.get("https://trends.google.com/trends/?geo=US");
         driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
     }
     @Test(priority = 1)
