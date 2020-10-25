@@ -20,7 +20,7 @@ public class CompareTrendsTest{
     @BeforeTest
     public void SetDriver(){
         //use Chrome
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\diana.philip\\IdeaProjects\\TechnicalTest\\src\\drivers\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "drivers\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://trends.google.com/trends/?geo=US");
